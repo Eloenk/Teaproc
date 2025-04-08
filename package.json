@@ -1,0 +1,16 @@
+{
+  "name": "eth-multisender",
+  "version": "1.0.0",
+  "description": "Script to batch send ETH using a multisender smart contract",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  },
+  "keywords": ["ethers", "batch send", "ethereum", "multisender", "sepolia"],
+  "author": "",
+  "license": "MIT"
+}
