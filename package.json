@@ -7,10 +7,18 @@
     "start": "node main.js"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
     "dotenv": "^16.3.1",
+    "eth-multisender": "file:",
     "ethers": "^6.8.1"
   },
-  "keywords": ["ethers", "batch send", "ethereum", "multisender", "sepolia"],
+  "keywords": [
+    "ethers",
+    "batch send",
+    "ethereum",
+    "multisender",
+    "sepolia"
+  ],
   "author": "",
   "license": "MIT"
 }

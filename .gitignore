@@ -1,0 +1,4 @@
+node_modules
+.env
+teano
+package-lock.json
