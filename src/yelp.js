@@ -19,7 +19,7 @@ const randomMinute = () => randomInt(10_000, 20_000); // Random between 0.7 and 
 
 // --- SWAP SET (50 cycles) ---
 async function swapSet() {
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 150; i++) {
     console.log(`\n🔁 Swap ${i + 1}/50`);
 
     try {
