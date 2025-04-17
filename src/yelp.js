@@ -15,7 +15,7 @@ const daov = new ethers.Contract(contractAddress, abi, wallet);
 
 // --- UTILS ---
 const wait = ms => new Promise(res => setTimeout(res, ms));
-const randomMinute = () => randomInt(42_000, 96_000); // Random between 0.7 and 1.6 minutes (42,000ms to 96,000ms)
+const randomMinute = () => randomInt(10_000, 20_000); // Random between 0.7 and 1.6 minutes (42,000ms to 96,000ms)
 
 // --- SWAP SET (50 cycles) ---
 async function swapSet() {
@@ -42,3 +42,4 @@ async function swapSet() {
 }
 
 module.exports = swapSet;
+

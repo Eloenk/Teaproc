@@ -40,11 +40,12 @@ async function main() {
     await tx.wait();
     console.log(`Batch ${i + 1} confirmed`);
 
-    // Random delay between 0.7 and 1.6 minutes using crypto.randomInt
-    const randomDelay = randomInt(42 * 1000, 96 * 1000); // Random between 0.7 and 1.6 minutes (42s to 96s)
+    
+    const randomDelay = randomInt(10 * 1000, 20 * 1000); 
     console.log(`Waiting for ${randomDelay / 1000} seconds before next send...`);
     await new Promise(resolve => setTimeout(resolve, randomDelay));
   }
 }
 
 module.exports = main;
+
