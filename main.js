@@ -14,7 +14,7 @@ async function run() {
     await main();
 
    
-    const selectedHours = randomInt(20, 30); 
+    const selectedHours = randomInt(18, 25); 
     const delay = selectedHours * 3600000; 
     console.log(`⏳ Waiting ${selectedHours} hours (${delay / 3600000} hours) until next run...`);
     await new Promise(resolve => setTimeout(resolve, delay));
